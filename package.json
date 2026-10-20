@@ -1,0 +1,19 @@
+{
+  "name": "loxecutivo-health",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Health monitor for the Loxecutivo microservices",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.6",
+    "express": "^5.2.1"
+  }
+}
